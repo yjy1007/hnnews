@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item android:title="home" android:icon="@mipmap/ic_launcher" android:id="@+id/home"/>
+    <item android:title="message" android:icon="@mipmap/ic_launcher" android:id="@+id/message"/>
+    <item android:title="friend" android:icon="@mipmap/ic_launcher" android:id="@+id/friend"/>
+    <item android:title="setting" android:icon="@mipmap/ic_launcher" android:id="@+id/setting"/>
+    </group>
+    <item android:title="Sub items">
+    <menu>
+    <item android:title="sub 1" android:icon="@mipmap/ic_launcher"/>
+    <item android:title="sub 2" android:icon="@mipmap/ic_launcher"/>
+    </menu>
+    </item>
+</menu>
